@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("netflixbackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+body::before{
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.452);
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height:100vh;
+    width: 100%;
+    opacity: 0.89;
+    z-index: -1;
+}
+.header::before{
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.26);
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height:80px;
+    width: 100%;
+    opacity: 0.89;
+    z-index: -1;
+}
+.header {
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2px 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0px;
+}
+.container::before{
+    content: "  ";
+    background-color: rgba(0, 0, 0, 0.801);
+    position: absolute;
+    top: 150px;
+    width: 30%;
+    height: 75%;
+    opacity: 0.79;
+    z-index: -1;
+}
+.container-sign-in{
+    font-family: Roboto;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.email{
+    width: 300px;
+    height:40px;
+    border-radius: 7.5px;
+    font-size: 1rem;
+    font-family: Playpen Sans;
+    color:white;
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 1px solid black;
+    padding: 7px 7px;
+    margin:  4px 0px;
+}
+.password{
+    width: 300px;
+    height:40px;
+    border-radius: 7.5px;
+    font-size: 1rem;
+    font-family: Playpen Sans;
+    color:white;
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 1px solid black;
+    padding: 7px 7px;
+    margin:  4px 0px;
+}
+.btn{
+    width: 320px;
+    height:50px;
+    border-radius: 7.5px;
+    font-size: 1rem;
+    font-family: Playpen Sans;
+    color:white;
+    background-color: red;
+    border: 1px solid black;
+    padding: 7px 7px;
+    margin:  4px 0px;
+}
+.container-sign-in{
+    margin: 4px 0px;
+    
+}
+.container-email{
+    margin: 4px 0px;
+
+}
+.container-password{
+    margin: 4px 0px;
+}
+.container-button{
+    margin: 15px 0px;
+}
+.container-checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Playpen Sans;
+    font-size: 0.75rem;
+    color: rgba(245, 245, 245, 0.884);
+}
+.container-checkbox span{
+    margin: 0px 30px;
+    padding: 0px 30px;
+}
+.container-welcome{
+    margin: 40px 0px;
+}
+.container-welcome p{
+    font-family: Playpen Sans;
+    font-size: 1rem;
+    color: gray;
+}
+.container-welcome span{
+    font-family: Playpen Sans;
+    font-size: 1rem;
+    color: white;
+}
+.container-end p1{
+    margin: 20px 0px;
+    
+     font-family: Playpen Sans;
+     font-size: 0.7rem;
+     color: rgba(255, 255, 255, 0.753);
+}
+.container-end p1 a{
+    list-style: none;
+    color: red;
+}
+.container-end{
+    margin: 7.5px 0px;
+}
